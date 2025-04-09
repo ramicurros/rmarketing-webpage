@@ -5,6 +5,7 @@ import sitemap from '@astrojs/sitemap';
 // https://astro.build/config
 export default defineConfig({
 	site: 'https://ramicurros.github.io/webpage/',
+	base: '/webpage/',
 	integrations: [mdx(), sitemap()],
 	build: {
 		inlineStylesheets: 'always', // Set to always inline stylesheets
